@@ -1,0 +1,64 @@
+{
+  "type": "tacz:gun",
+  "id": "pancor:pancor_jackhammer",
+  "name": "Pancor Jackhammer",
+  "description": "A legendary semi-automatic combat shotgun",
+  "rarity": "epic",
+  
+  "model": {
+    "display": "pancor:pancor_jackhammer",
+    "firing": "pancor:pancor_jackhammer_firing",
+    "reload": "pancor:pancor_jackhammer_reload"
+  },
+  
+  "gun": {
+    "damage": 18.5,
+    "fire_rate": 1.2,
+    "spread": 8.5,
+    "recoil": 2.8,
+    "reload_time": 80,
+    "magazine_size": 10,
+    "ammo_type": "shotgun_ammo",
+    "max_range": 50,
+    
+    "pellets": {
+      "count": 8,
+      "spread_pattern": "cone"
+    },
+    
+    "sounds": {
+      "fire": "pancor:gun.fire.jackhammer",
+      "reload_start": "pancor:gun.reload.shotgun_start",
+      "reload": "pancor:gun.reload.shotgun",
+      "fire_mode": "pancor:gun.firemode"
+    },
+    
+    "fire_modes": ["single"],
+    
+    "attachments": {
+      "slots": [
+        {
+          "type": "scope",
+          "position": "top",
+          "compatible": ["iron_sight", "red_dot", "scope_4x"]
+        },
+        {
+          "type": "muzzle",
+          "position": "muzzle",
+          "compatible": ["muzzle_brake", "suppressor"]
+        },
+        {
+          "type": "magazine",
+          "position": "mag",
+          "compatible": ["shotgun_mag_10", "shotgun_mag_15"]
+        }
+      ]
+    },
+    
+    "aiming": {
+      "fov_multiplier": 0.75,
+      "sway": 2.5,
+      "convergence_time": 5
+    }
+  }
+}
