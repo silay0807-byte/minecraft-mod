@@ -1,0 +1,9 @@
+{
+  "gun.pancor.pancor_jackhammer": "Pancor Jackhammer",
+  "gun.pancor.pancor_jackhammer.description": "A legendary semi-automatic combat shotgun with devastating firepower",
+  
+  "sound.pancor.gun.fire.jackhammer": "Pancor Jackhammer Fire",
+  "sound.pancor.gun.reload.shotgun_start": "Shotgun Reload Start",
+  "sound.pancor.gun.reload.shotgun": "Shotgun Reload",
+  "sound.pancor.gun.firemode": "Fire Mode Switch"
+}
