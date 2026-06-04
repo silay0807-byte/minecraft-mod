@@ -1,0 +1,37 @@
+modLoader="javafxmod"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="pancor"
+version="1.0.0"
+displayName="Pancor Jackhammer"
+logoFile="logo.png"
+credits="Created for Timeless and Classics Zero"
+authors="PancorTeam"
+description="""
+Adds the legendary Pancor Jackhammer shotgun to Minecraft!
+This mod is an addon for Timeless and Classics Zero (TaCZ).
+Features realistic firing, reloading, and ballistics.
+"""
+
+[[dependencies.pancor]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pancor]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.pancor]]
+modId="tacz"
+mandatory=true
+versionRange="[1.5.0,)"
+ordering="AFTER"
+side="BOTH"
