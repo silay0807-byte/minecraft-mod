@@ -1,0 +1,23 @@
+This is a placeholder for the texture file.
+
+To use the mod, you need to replace this with an actual PNG texture file.
+
+Texture specifications:
+- Format: PNG (32-bit with alpha channel)
+- Resolution: 64x64 pixels (recommended)
+- Filename: pancor_jackhammer.png
+- Location: src/main/resources/assets/pancor/textures/gun/
+
+How to add the texture:
+1. Create or download a pancor_jackhammer.png image (64x64)
+2. Delete this .txt file
+3. Place the PNG file in this directory
+4. Rebuild the mod with: gradlew build
+
+Texture should contain details for:
+- Barrel
+- Receiver/body
+- Stock
+- Magazine
+- Handguard
+- Sights/optics mounting points

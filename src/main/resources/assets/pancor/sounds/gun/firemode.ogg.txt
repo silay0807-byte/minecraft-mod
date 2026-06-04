@@ -1,0 +1,4 @@
+Placeholder for fire mode switch sound.
+
+Replace with an actual .ogg sound file.
+Sound should be a mechanical switch/click sound.

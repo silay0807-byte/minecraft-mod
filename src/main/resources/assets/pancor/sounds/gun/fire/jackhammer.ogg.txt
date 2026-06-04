@@ -1,0 +1,4 @@
+Placeholder for jackhammer fire sound.
+
+Replace with an actual .ogg sound file.
+Sound should be a loud shotgun blast sound.

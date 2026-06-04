@@ -1,0 +1,4 @@
+Placeholder for shotgun reload start sound.
+
+Replace with an actual .ogg sound file.
+Sound should be a metallic click/break action sound.

@@ -1,0 +1,4 @@
+Placeholder for shotgun reload sound.
+
+Replace with an actual .ogg sound file.
+Sound should be a shell loading/racking sound.
