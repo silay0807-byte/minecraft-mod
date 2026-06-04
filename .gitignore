@@ -1,0 +1,25 @@
+# Gradle
+.gradle/
+build/
+out/
+libs/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.rar
+
+# Run directories
+run/
