@@ -1,0 +1,43 @@
+{
+  "gun": {
+    "id": "pancor:pancor_jackhammer",
+    "display_name": {
+      "translate": "gun.pancor.pancor_jackhammer"
+    },
+    "model": {
+      "display_model": "pancor:pancor_jackhammer",
+      "firing_model": "pancor:pancor_jackhammer_firing"
+    },
+    "ammo": {
+      "type": "pancor:shotgun_ammo",
+      "capacity": 10,
+      "reload_time": 80
+    },
+    "attributes": {
+      "damage": 18.5,
+      "fire_rate": 1.2,
+      "accuracy": 8.5,
+      "recoil": 2.8,
+      "range": 50.0,
+      "weight": 3.8
+    },
+    "firing": {
+      "projectiles": {
+        "count": 8,
+        "spread": 8.5,
+        "velocity": 50.0
+      },
+      "sound": "pancor:gun.fire.jackhammer"
+    },
+    "reload": {
+      "sound_start": "pancor:gun.reload.shotgun_start",
+      "sound_reload": "pancor:gun.reload.shotgun",
+      "duration": 80
+    },
+    "attachments": {
+      "scopes": ["iron_sight", "red_dot"],
+      "muzzles": ["muzzle_brake"],
+      "magazines": []
+    }
+  }
+}
