@@ -1,0 +1,40 @@
+{
+  "gun": {
+    "fire": {
+      "jackhammer": {
+        "sounds": [
+          "pancor:gun/fire/jackhammer"
+        ],
+        "subtitle": "sound.pancor.gun.fire.jackhammer",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    },
+    "reload": {
+      "shotgun_start": {
+        "sounds": [
+          "pancor:gun/reload/shotgun_start"
+        ],
+        "subtitle": "sound.pancor.gun.reload.shotgun_start",
+        "volume": 0.8,
+        "pitch": 1.0
+      },
+      "shotgun": {
+        "sounds": [
+          "pancor:gun/reload/shotgun"
+        ],
+        "subtitle": "sound.pancor.gun.reload.shotgun",
+        "volume": 0.7,
+        "pitch": 1.0
+      }
+    },
+    "firemode": {
+      "sounds": [
+        "pancor:gun/firemode"
+      ],
+      "subtitle": "sound.pancor.gun.firemode",
+      "volume": 0.5,
+      "pitch": 1.0
+    }
+  }
+}
